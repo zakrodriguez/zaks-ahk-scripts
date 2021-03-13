@@ -1,5 +1,7 @@
 #MaxThreadsPerHotkey 3
 
+
+; Auto wood chopper - mouse4 toggles on/off
 XButton1::
 Toggle := !Toggle
 Loop
@@ -7,10 +9,11 @@ Loop
 	If (!Toggle)
 		Break
 	Click
-	Sleep 166 ; 3 times per second
+	Sleep 166 ; 6 times per second
 }
 Return
 
+; Auto crop picker - mouse5 toggles on/off
 XButton2::
 Toggle2 := !Toggle2
 Loop
