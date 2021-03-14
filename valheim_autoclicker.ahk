@@ -3,7 +3,6 @@
 
 ; @todo add autosneak
 ; @todo add perfect planting rows
-; @todo add delayed Use key for bulk crafting
 
 ; Spam lef-click at moderate rate (e.g. auto woodchopper)
 ; mouse4 toggles on/off
